@@ -20,7 +20,7 @@ public class Square
      */
     public Square()
     {
-        size = 60;
+        size = 100;
         xPosition = 310;
         yPosition = 120;
         color = "red";
