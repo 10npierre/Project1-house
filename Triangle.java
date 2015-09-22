@@ -23,7 +23,7 @@ public class Triangle
     {
         height = 100;
         width = 120;
-        xPosition = 210;
+        xPosition = 370;
         yPosition = 80;
         color = "black";
         isVisible = false;
