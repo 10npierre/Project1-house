@@ -30,29 +30,29 @@ public class Picture
     public void draw()
     {
         wall = new Square();
-        wall.moveHorizontal(-140);
-        wall.moveVertical(20);
+        //wall.moveHorizontal(0);
+        //wall.moveVertical(0);
         wall.changeSize(120);
         wall.makeVisible();
         
         window = new Square();
         window.changeColor("black");
-        window.moveHorizontal(-120);
-        window.moveVertical(40);
-        window.changeSize(40);
+        //window.moveHorizontal(0);
+        //window.moveVertical(0);
+        //window.changeSize(40);
         window.makeVisible();
 
         roof = new Triangle();  
-        roof.changeSize(60, 180);
-        roof.moveHorizontal(20);
-        roof.moveVertical(-60);
+        //roof.changeSize(60, 180);
+        //roof.moveHorizontal(20);
+        //roof.moveVertical(-60);
         roof.makeVisible();
 
         sun = new Circle();
         sun.changeColor("yellow");
-        sun.moveHorizontal(100);
-        sun.moveVertical(-40);
-        sun.changeSize(80);
+        //sun.moveHorizontal(100);
+        //sun.moveVertical(-40);
+        //sun.changeSize(80);
         sun.makeVisible();
     }
 

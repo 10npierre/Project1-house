@@ -23,7 +23,7 @@ public class Person
     {
         height = 60;
         width = 30;
-        xPosition = 280;
+        xPosition = 180;
         yPosition = 256;
         color = "black";
         isVisible = false;
